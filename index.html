@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<!--649 pokemons-->
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--links-->
+    <link rel="icon" href="./favicons/favicon.ico" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <!--java script principal-->
+    <script defer src="./js/script.js"></script>
+    <title>Pokédex</title>
+  </head>
+  <body>
+    <main>
+      <img src="" alt="pokemon" id="pokemon__image" />
+      <img src="" alt="psh" id="pokemon__sh" style="display: none" />
+      <h1 id="pokemon__data">
+        <span id="pokemon__number"></span> -
+        <span id="pokemon__name"></span>
+      </h1>
+      <form id="form">
+        <input
+          type="search"
+          id="input__search"
+          placeholder="Name or number"
+          required
+        />
+      </form>
+
+      <div>
+        <button class="button" id="sh-btn">Shiny Form</button>
+      </div>
+
+      <div class="buttons">
+        <button class="button" id="btn-prev">&lt; Prev</button>
+        <button class="button" id="btn-next">Next &gt;</button>
+      </div>
+      <img src="./images/pokedex.png" alt="pokedexitem" id="pokedex" />
+    </main>
+  </body>
+</html>
